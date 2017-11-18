@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+    <name>PhataPak</name>
+    <homepage rdf:resource="https://github.com/PhataPak/PhataPak" />
+    <created>2017-11-18</created>
+    <shortdesc xml:lang="en">Reusable data for usage in and the development of PHP software in datapackage format</shortdesc>
+    <shortdesc xml:lang="de">Wiederverwenbare Daten für die PHP Entwicklung im datapackage Format</shortdesc>
+    <description xml:lang="en">
+        The main goal of this project is to provide reusable data for usage in and the development of PHP software.
+        Data in this project is not limited to data about PHP (development) itself but can contain information about other languages, infrastructure and IT ecosystems.
+        The data in this project is made available in the Data Package format (http://frictionlessdata.io/specs/data-package/) and under the PDDL license (http://www.opendatacommons.org/licenses/pddl/1.0/) .
+        The data packages in this project are not meant to be comprehensive, complete or 'correct'.
+        They are meant to be reference points to apply DRY principle on a data level and to support data driven development approaches.
+    </description>
+    <maintainer>
+        <foaf:Person>
+            <foaf:name>Timo Michna</foaf:name>
+            <foaf:homepage rdf:resource="https://github.com/tidal" />
+        </foaf:Person>
+    </maintainer>
+    <translator>
+        <foaf:Person>
+            <foaf:name>Timo Michna</foaf:name>
+            <foaf:homepage rdf:resource="https://github.com/tidal" />
+        </foaf:Person>
+    </translator>
+    <!-- currently supported versions -->
+    <release>
+        <Version>
+            <name>unstable</name>
+            <created>2017-11-18</created>
+            <revision>0.0.1</revision>
+        </Version>
+    </release>
+
+    <license rdf:resource="https://opensource.org/licenses/MIT" />
+
+    <repository>
+        <GitRepository>
+            <location rdf:resource="https://github.com/PhataPak/PhataPak.git"/>
+            <browse rdf:resource="https://github.com/PhataPak/PhataPak"/>
+        </GitRepository>
+    </repository>
+
+</Project>
