@@ -11,7 +11,7 @@
     }
   ],
   "keywords": [ "datasets", "registry", "catalog", "phatapak", "php"],
-  "version": "0.0.1",
+  "version": "1.0.1",
   "sources": [{
     "title": "Datasets from PhataPak",
     "path": "https://github.com/PhataPak/PhataPak"
