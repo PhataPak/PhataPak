@@ -1,0 +1,24 @@
+{
+    "name": "phatapak/phatapak",
+    "description": "library",
+    "keywords": ["datapackage", "json", "data", "import", "export"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhataPak\\": "dev/src"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "configure-commit-template": "git config --add commit.template .gitmessage"
+    }
+}
