@@ -1,1 +1,2 @@
 "name", "path", "description", "repository"
+"phatapak.vcs.commit.types", "vcs.commit.types", "Types of commits to be used in commit messages", ""

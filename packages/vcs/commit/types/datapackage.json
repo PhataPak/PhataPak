@@ -1,0 +1,44 @@
+{
+  "name": "phatapak.vcs.commit.types",
+  "title": "Types of commits to be used in commit messages",
+  "description": "Types of commits to be used in commit messages when using semantic commits (http://seesparkbox.com/foundry/semantic_commit_messages)",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "name": "public_domain_dedication_and_license",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "keywords": [ "vcs", "commit", "semantic commit", "semantic commit messages", "types"],
+  "version": "1.0.0",
+  "sources": [{
+    "title": "Semantic Commit Messages",
+    "path": "http://seesparkbox.com/foundry/semantic_commit_messages"
+  }],
+  "resources":  [
+    {
+      "name": "data",
+      "path": "data.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the dataset"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Path to find the package in the main repository"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "A short description of the information provided by the dataset"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+"name", "title", "description"
+"chore", "Chore", "Applying changes regarding infrastructure, builds, etc."
+"docs", "Documentation", "Adding documentation, examples, etc."
+"feat", "Feature", "Adding features to the code"
+"fix", "Fix", "Bug and typo fixes"
+"refactor", "Refactoring", "Refactoring the code"
+"style", "Style", "Applying changes regarding coding standards, etc."

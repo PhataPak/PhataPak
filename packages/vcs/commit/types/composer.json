@@ -1,0 +1,19 @@
+{
+    "name": "phatapak/vcs-commit-types",
+    "description": "library",
+    "keywords": ["phatapak", "datapackage", "vcs", "commit", "semantic commit", "semantic commit messages", "types"],
+    "license": "PDDL",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "configure-commit-template": "git config --add commit.template .gitmessage"
+    }
+}
