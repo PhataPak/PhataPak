@@ -1,0 +1,19 @@
+{
+    "name": "phatapak/registry",
+    "description": "library",
+    "keywords": ["datapackage", "json", "data", "registry"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "configure-commit-template": "git config --add commit.template .gitmessage"
+    }
+}
